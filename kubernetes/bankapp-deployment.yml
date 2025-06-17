@@ -45,7 +45,7 @@ spec:
         #   httpGet:
         #     path: /actuator/health  # Update this based on your app's health endpoint
         #     port: 8080
-        #   initialDelaySeconds: 10
+        #   initialDelaySeconds: 10 
         #   periodSeconds: 5
         # livenessProbe:
         #   httpGet:
