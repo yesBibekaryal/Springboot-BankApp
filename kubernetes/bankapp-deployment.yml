@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: kubebibek/bankapp-eks:latest
+        image: trainwithshubham/bankapp-eks:v2
         ports:
         - containerPort: 8080
         env:
